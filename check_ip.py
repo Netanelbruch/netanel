@@ -12,3 +12,4 @@ while True:
         print("the ip " + str(a) + " is good")
     else:
         print("no good")
+        
