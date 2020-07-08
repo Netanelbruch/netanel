@@ -2,9 +2,9 @@ import random
 
 my_list2 = []
 for i in range(0, 6):
-    number = random.randint(1, 10)
+    number = random.randint(1, 37)
     while number in my_list2:
-        number = random.randint(1, 10)
+        number = random.randint(1, 37)
     my_list2.append(number)
 print(my_list2)
 
@@ -21,9 +21,9 @@ i = 0
 while i != x:
     ball = []
     for k in range(6):
-        l = random.randint(1, 10)
+        l = random.randint(1, 37)
         while l in ball:
-            l = random.randint(1, 10)
+            l = random.randint(1, 37)
         ball.append(l)
         ball.sort()
     if ball in list_user:
